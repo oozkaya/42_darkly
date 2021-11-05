@@ -1,0 +1,4 @@
+*.iso
+Darkly
+*.log
+.gdb_history
