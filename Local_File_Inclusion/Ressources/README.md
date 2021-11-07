@@ -1,8 +1,6 @@
 # Local file inclusion
 
-## Explanations
-
-### What is the LFI (Local File Inclusion) vulnerablity ?
+## What is the LFI (Local File Inclusion) vulnerablity ?
 
 An attacker can use Local File Inclusion (LFI) to trick the web application into exposing or running files on the web server. An LFI attack may lead to information disclosure, remote code execution, or even Cross-site Scripting (XSS). Typically, LFI occurs when an application uses the path to a file as input. If the application treats this input as trusted, a local file may be used in the include statement.
 
@@ -37,7 +35,7 @@ http://example.com/?file=../../../../etc/passwd
 
 In the above example, an attacker can get the contents of the /etc/passwd file that contains a list of users on the server. Similarly, an attacker may leverage the Directory Traversal vulnerability to access log files (for example, Apache access.log or error.log), source code, and other sensitive information. This information may then be used to advance an attack.
 
-### Let's get the Flag !
+## Let's get the Flag !
 
 First, let's find a page that uses query parameters: for example: [sign in](http://192.168.1.38/index.php?page=signin)
 
