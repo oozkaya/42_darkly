@@ -1,7 +1,6 @@
-#! /usr/local/bin/bash
+#! /bin/bash
 
 NAME="darkly"
-VM_PORT="4242"
 
 CURDIR=`dirname $0`
 
@@ -36,7 +35,5 @@ if [ -z "$VM_IP" ]; then
     exit 1;
 fi
 
-echo -e "You should set its IP as environment variable and then install utils\n"
-echo "export OR_HOST=$VM_IP"
-echo "export OR_PORT=$VM_PORT"
-echo "$CURDIR/installUtils.sh"
+echo "export DK_HOST=$VM_IP"
+echo "http://$VM_IP"
