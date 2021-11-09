@@ -2,20 +2,22 @@
 
 ## Explanations
 
-Just like the first SQL injection, we will use again our SQL command to get all the tables of the database: 
+We notice a page to search an image, just like the member page. Why not trying the same strategy with SQL injection but this time looking closer into an image related table ?
+
+We will use again our SQL command to get all the tables of the database: 
 ```sql
 1 UNION SELECT column_name, table_name FROM information_schema.columns
 ```
 
-Last time, we looked into the `users` table. This time, after some investigation, we saw that `list_images` had some interesting things too, particularly in the `comment` column.
+Last time, we looked into the `users` table. This time, after some investigation, we see `list_images` table, and particularly the `comment` column.
 
 ```sql
 1 UNION SELECT title, comment FROM list_images
 ```
 
-This request doesn't seem to find list_images table... Let's see to which database it is linked to:
+This request doesn't seem to find list_images table... Let's see which database it is linked to:
 ```sql
-1 UNION SELECT table_name, table_schema FROM information_schema.colums
+1 UNION SELECT table_name, table_schema FROM information_schema.columns
 ```
 which gives us:
 ```
