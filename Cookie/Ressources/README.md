@@ -18,4 +18,4 @@ Simply do not store in a cookie the admin status (even worse with an MD5 encrypt
 
 #### Sources
 
-[MD5 Decrypter](https://md5decrypt.net/)
+- [MD5 Decrypter](https://md5decrypt.net/)

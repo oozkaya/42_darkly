@@ -33,8 +33,8 @@ On the other hand, `robots.txt` is just going to handle the indexation robots an
 
 #### Sources
 
-[What is robots.txt ?](https://developers.google.com/search/docs/advanced/robots/intro)
-[Security risks robots.txt](https://www.searchenginejournal.com/robots-txt-security-risks/289719/)
-[Prevent robots.txt exclusion from wget download](https://www.gnu.org/software/wget/manual/html_node/Robot-Exclusion.html#:~:text=If%20you%20know%20what%20you,off%20url%20...%20'.)  
-[Recursive accept](https://www.gnu.org/software/wget/manual/html_node/Recursive-Accept_002fReject-Options.html)
-[.htaccess & robots.txt](https://aidewindows.net/pageweb_htaccess.php)
+- [What is robots.txt ?](https://developers.google.com/search/docs/advanced/robots/intro)
+- [Security risks robots.txt](https://www.searchenginejournal.com/robots-txt-security-risks/289719/)
+- [Prevent robots.txt exclusion from wget download](https://www.gnu.org/software/wget/manual/html_node/Robot-Exclusion.html#:~:text=If%20you%20know%20what%20you,off%20url%20...%20'.)  
+- [Recursive accept](https://www.gnu.org/software/wget/manual/html_node/Recursive-Accept_002fReject-Options.html)
+- [.htaccess & robots.txt](https://aidewindows.net/pageweb_htaccess.php)

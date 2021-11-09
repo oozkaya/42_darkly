@@ -79,8 +79,8 @@ A good way to counter that could be to use Prepared statements. ORMs do that tri
 
 #### Sources
 
-[All infos about SQL database](https://stackoverflow.com/questions/600446/how-do-you-return-the-column-names-of-a-table)  
-[SQL injection prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
-[Find Table Names for SQL Injection](https://www.sqlinjection.net/table-names/)
-[MD5 Decrypter](https://md5decrypt.net/)
-[SHA256 Encrypter](https://md5decrypt.net/Sha256/)
+- [All infos about SQL database](https://stackoverflow.com/questions/600446/how-do-you-return-the-column-names-of-a-table)  
+- [SQL injection prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- [Find Table Names for SQL Injection](https://www.sqlinjection.net/table-names/)
+- [MD5 Decrypter](https://md5decrypt.net/)
+- [SHA256 Encrypter](https://md5decrypt.net/Sha256/)

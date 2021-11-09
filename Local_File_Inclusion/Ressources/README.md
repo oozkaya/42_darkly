@@ -78,5 +78,5 @@ Here are a few ways to prevent LFI attacks:
 
 #### Sources
 
-[What is Local File Inclusion (LFI)?](https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/)
-[Local file inclusion (prevention)](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)
+- [What is Local File Inclusion (LFI)?](https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/)
+- [Local file inclusion (prevention)](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)
