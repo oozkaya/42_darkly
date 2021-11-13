@@ -1,19 +1,18 @@
-# Override
+# Darkly
 
 ## About
 
-> Override is last ISO that will have you search for faults present in the protected binaries, and re-build these binaries depending on their behavior.
+This project is an introduction to cyber security in the field of the World Wide Web.
 
-This is the third project of the Security branch at School 42 Paris
+When you develop your first websites, you will have absolutely no clue regarding the risks they will be exposed. This little project is here to teach you the basics : you will learn about these risksand vulnerabilities while auditing a simple website. 
 
 ## Content
 
 Each level folders contains these files:
 
-- `flag`: Password for the next user
-- `source`: A pseudocode of the binary to reverse
-- `README`: How to find the password
-- `main.sh`: Main script to execute. It connects us through ssh and executes `script.sh` on virtual machine.
+- `flag`: Flag given by the security breach
+- `Ressources`: Everything needed to explain/find the security breach
+- `READMEmd`: Explanation on how to find the flag
 
 ## Setup VM (Ubuntu/Debian)
 
@@ -25,5 +24,4 @@ Requirements:
 ```shell
 ./scripts/createVM.sh
 ./scripts/startVM.sh
-./scripts/installUtils.sh
 ```
